@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="icon" type="image/x-icon" href="images/tech.png">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Arimi</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- awesome fontfamily -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+             <style>
+        body {
+            padding: 0;
+            margin: 0;
+            scroll-behavior: smooth !important;
+        }
+
+
+    </style>
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <nav class="nav-portfolio">
+        <input id="nav-toggle-portfolio" type="checkbox">
+        <div class="logo-portfolio"><a href="index.html"><img src="images/tech.png" style="width: auto; height: 70px; padding-top: 10px;" class="lipak_logo-portfolio"></a></div>
+        <ul class="links-portfolio">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#what-i-do">What I Do</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <label for="nav-toggle-portfolio" class="icon-burger-portfolio">
+            <div class="line-portfolio"></div>
+            <div class="line-portfolio"></div>
+            <div class="line-portfolio"></div>
+        </label>
+    </nav>
+
+    <div class="progress-bar-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+      <!-- end header -->
+      <!-- start slider section -->
+      <div id="top_section" class=" banner_main">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <h1>Innovative <br>Solutions</h1>
+                                    <p>Empowering businesses with cutting-edge technologies and creative<br>strategies to redefine success in the digital landscape.
+                                    </p>
+                                    <a class="read_more" href="#about">About Me </a><a class="read_more" href="#contact">Contact </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <h1>Designing <br>Tomorrow</h1>
+                                    <p>Bringing visions to life through intuitive design and development, <br>shaping the future of online experiences.
+                                    </p>
+                                    <a class="read_more" href="#about">About Me </a><a class="read_more" href="#contact">Contact </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <h1>Beyond <br>Boundaries</h1>
+                                    <p>Pushing the limits of possibility, delivering bespoke solutions <br>that transcend expectations and elevate your digital presence.
+                                    </p>
+                                    <a class="read_more" href="#about">About Me </a><a class="read_more" href="#contact">Contact </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <h1>Code <br>Craftsmanship</h1>
+                                    <p>Meticulously coding every line to ensure not just functionality, <br>but a seamless and exceptional user experience.
+                                    </p>
+                                    <a class="read_more" href="#about">About Me </a><a class="read_more" href="#contact">Contact </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end slider section -->
+      <!-- About -->
+      <div class="we_do" id="about">
+         <div class="container" style="margin-bottom: -150px;">
+            <div class="row ">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>Who Am I </h2>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <img src="images/Arimi.jpg" style="width: 100%; height: auto;">
+               </div>
+               <div class="col-md-6" style="margin: auto !important; margin-top: 30px !important;">
+                  <p>Hello, I'm Arimi Bonface, an IT professional passionate about crafting exceptional digital experiences. With expertise in full-stack web development, ERP systems, and graphic design, I specialize in weaving innovative solutions that transcend the ordinary. Whether coding seamless user interfaces or creating captivating graphics, I thrive on bringing creativity and functionality together. Let's collaborate to elevate your digital presence and make your vision a reality.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- contact -->
+      <!-- we_do -->
+      <div class="we_do" id="what-i-do" style="margin-bottom: -150px">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>What I do </h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="carousel slide" data-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container-fluid">
+                              <div class="carousel-caption we1_do">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div id="bo_ho" class="we_box text_align_left">
+                                          <i><img src="images/we1.png" alt="#"/></i>
+                                          <h3>Fullstack <br>Web-development</h3>
+                                          <p>"Crafting dynamic and user-centric web solutions with expertise in both front-end and back-end technologies.
+                                          </p>
+                                          <a class="read_more" href="we_do">Read More</a>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div id="bo_ho" class="we_box text_align_left">
+                                          <i><img src="images/erp3.png" alt="#"/ style="height: 76px;"></i>
+                                          <h3>ERP <br>Systems</h3>
+                                          <p>Streamlining business processes through comprehensive ERP solutions, optimizing efficiency and enhancing organizational performance.
+                                          </p>
+                                          <a class="read_more" href="we_do">Read More</a>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div id="bo_ho" class="we_box text_align_left">
+                                          <i><img src="images/graphic2.png" alt="#"/style="height: 76px;"></i>
+                                          <h3>Graphic <br>Design</h3>
+                                          <p>Transforming concepts into captivating visuals, merging creativity with functionality for a visually compelling user experience.
+                                          </p>
+                                          <a class="read_more" href="we_do">Read More</a>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div id="bo_ho" class="we_box text_align_left">
+                                          <i><img src="images/circuit.png" alt="#"/style="height: 76px;"></i>
+                                          <h3>Comprehensive <br>IT Solutions</h3>
+                                          <p>I extend my expertise to encompass a spectrum of other IT services, ensuring a holistic and tailored approach to meet your specific project demands.
+                                          </p>
+                                          <a class="read_more" href="we_do">Read More</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end we_do -->
+      <!-- portfolio -->
+      <div class="portfolio" id="portfolio">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <h2>My Portfolio</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div id="ho_nf" class="portfolio_main text_align_left">
+                     <figure>
+                        <img src="images/web.png" alt="#"/>
+                        <div class="portfolio_text">
+                           <h3>Responsive Design</h3>
+                           <p>I specialize in crafting responsive and visually appealing websites that seamlessly blend form and function. Each website I create is tailored to meet the unique needs of my clients, delivering a captivating user experience.</p>
+                        </div>
+                     </figure>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div id="ho_nf" class="portfolio_main text_align_left">
+                     <figure>
+                        <img src="images/erp.png" alt="#"/>
+                        <div class="portfolio_text">
+                           <h3>ERP Systems</h3>
+                           <p>I've developed intuitive and efficient admin dashboards that empower businesses with insightful data visualization and streamlined control over their operations.</p>
+                        </div>
+                     </figure>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div id="ho_nf" class="portfolio_main text_align_left">
+                     <figure>
+                        <img src="images/poster.png" alt="#"/>
+                        <div class="portfolio_text">
+                           <h3>Poster Design</h3>
+                           <p>My poster design expertise combines creativity with effective communication. I bring concepts to life through eye-catching visuals, ensuring each poster delivers a compelling message and resonates with its intended audience.</p>
+                        </div>
+                     </figure>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div id="ho_nf" class="portfolio_main text_align_left">
+                     <figure>
+                        <img src="images/logo-design.png" alt="#"/  style="width: 100%">
+                        <div class="portfolio_text">
+                           <h3>Logo Design</h3>
+                           <p>I've ventured into diverse realms of graphic design. From logo creation to branding materials, I bring a creative touch to every project, ensuring a cohesive and visually compelling brand presence.</p>
+                        </div>
+                     </figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end portfolio -->
+      <!-- chose -->
+      <div class="chose">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <h2>Why Chose Me</h2>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-4">
+                  <div class="chose_box">
+                     <i><img src="images/chose1.png" alt="#"/></i>
+                     <h3>Project Done </h3>
+                     <strong>10+</strong>
+                     <!--<a class="read_more" href="Javascript:void(0)">Read More</a>-->
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-4">
+                  <div class="chose_box">
+                     <i><img src="images/chose2.png" alt="#"/></i>
+                     <h3>Happy Clients </h3>
+                     <strong>10+</strong>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-4">
+                  <div class="chose_box">
+                     <i><img src="images/thumbs-up.jpg" alt="#"/ style="height: 62px;"></i>
+                     <h3>Ratings</h3>
+                     <strong>5/5 &#9734;</strong>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end chose -->
+      <!-- contact -->
+      <div class="contact" id="contact">
+         <div class="container">
+            <div class="row ">
+               <div class="col-md-6">
+                  <div class="titlepage text_align_left">
+                     <h2>Get In Touch</h2>
+                     <p style="margin-top: 40px">Fill the form below or contact me directly through my contact details below:<br><strong>phone: 0743 115 830</strong><br><strong>email: iamArimi@outlook.com</strong></p>
+                  </div>
+                  <form id="request" class="main_form" action="https://formsubmit.co/iamarimi@outlook.com" method="POST">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Name" type="type" name=" Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="textarea" placeholder="Message" type="type" name="Message"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn" type="submit">Send Now</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-md-6">
+                  <div class="titlepage text_align_left">
+                     <h2>What Says Clients</h2>
+                  </div>
+                  <div id="clientsl" class="carousel slide our_clientsl" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#clientsl" data-slide-to="0" class="active"></li>
+                        <li data-target="#clientsl" data-slide-to="1"></li>
+                        <li data-target="#clientsl" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="clientsl_text">
+                                    <i><img src="images/principal.jpg" alt="#"/ style="height: 141px"></i>
+                                    <h3>Mrs. Fransisca Asino, Principal <img src="images/icon.png" alt="#"/></h3>
+                                    <p>I was happy for the web results for my school, the website has a good appearance, responsive and was delivered on time. It's nice to see youths taking action and using their expertise to better the society.<br>Good Work!</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="clientsl_text">
+                                    <i><img src="images/lipakimage.png" alt="#"/ style="height: 141px;"></i>
+                                    <h3>Pamela Kagwiria, CEO Lipak <img src="images/icon.png" alt="#"/></h3>
+                                    <p>The web design and the graphic design assignment was delivered beyond my expectation. <br>The pricing was also reasonable and the delivery was on schedule. My clients have also commended both designs.<br>I look forward to working with you more!</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="clientsl_text">
+                                    <i><img src="images/douglas.jpg" alt="#"/style = "height: 141px;"></i>
+                                    <h3>Pastor Douglas, Deliverance Church<img src="images/icon.png" alt="#"/></h3>
+                                    <p>Thank you for puting in work into the church website, our congregants will be able to access all the sermons and to livestream as well.<br>The platform is responsive and vusually appealing.<br>God bless you!</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#clientsl" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#clientsl" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- contact -->
+      <!-- footer -->
+      
+      <footer class="footer-distributed">
+
+         <div class="footer-right">
+
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+         </div>
+
+         <div class="footer-left">
+
+            <p class="footer-links">
+               <a class="link-1" href="#top_section">Home</a>
+
+               <a href="#about">About</a>
+
+               <a href="#what-i-do">What I Do</a>
+
+               <a href="#portfolio">Portfolio</a>
+
+               <a href="#contact">Contact</a>
+            </p>
+
+            <p>Arimi &copy; 2024</p>
+         </div>
+
+      </footer>
+
+      <!-- Javascript files-->
+          <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const progressBarContainer = document.querySelector(".progress-bar-container");
+            const progressBar = document.getElementById("progress-bar");
+
+            function updateProgressBar() {
+                const windowHeight = window.innerHeight;
+                const documentHeight = document.documentElement.scrollHeight - windowHeight;
+                const scrollProgress = (window.scrollY / documentHeight) * 100;
+
+                progressBar.style.width = scrollProgress + "%";
+            }
+
+            function showHideProgressBar() {
+                const scrollTop = window.scrollY;
+
+                if (scrollTop > 50) {
+                    progressBarContainer.style.display = "block";
+                } else {
+                    progressBarContainer.style.display = "none";
+                }
+            }
+
+            function updateProgress() {
+                updateProgressBar();
+                showHideProgressBar();
+            }
+
+            window.addEventListener("scroll", updateProgress);
+            window.addEventListener("resize", updateProgress);
+        });
+    </script>
+      <script>
+          document.addEventListener("DOMContentLoaded", function () {
+              const sections = document.querySelectorAll("div[id]");
+              const navLinks = document.querySelectorAll(".links-portfolio a");
+
+              function highlightNavLink() {
+                  let scrollPosition = window.scrollY;
+
+                  sections.forEach((section, index) => {
+                      const top = section.offsetTop - 100; // Adjust the offset based on your design
+                      const bottom = top + section.offsetHeight;
+
+                      if (scrollPosition >= top && scrollPosition < bottom) {
+                          navLinks.forEach((link) => {
+                              link.classList.remove("active-link-portfolio");
+                          });
+                          navLinks[index].classList.add("active-link-portfolio");
+                      }
+                  });
+              }
+
+              window.addEventListener("scroll", highlightNavLink);
+          });
+      </script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
